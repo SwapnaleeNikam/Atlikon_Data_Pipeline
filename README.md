@@ -1,6 +1,5 @@
 # Atlikon_Data_Pipeline
 
-# FMCG-Data-Engineering
 ## Overview
 This project repository is an **end-to-end Data Engineering pipeline** built using **AWS services**.It demonstrates how to ingest raw data, store it in cloud storage, transform it using ETL processes, and make it available for analysis.The project follows real-world data engineering practices and cloud-based architecture.
 ## Problem Statement
@@ -13,7 +12,7 @@ AtliQon (Parent Company) is a well-established organization with mature OLTP and
 - Raw transactional data from Sports Bar (OLTP system) is ingested into Amazon S3, It acts as the central data lake
 - The project follows the Medallion Archite-cture (Bronze, Silver, Gold) implemented in Databricks
 - The Gold-layer denormalized table is consumed by Databricks SQL Dashboards for visual reporting, Databricks Genie for natural language querying and ad-hoc analysis
-- <img width="20005" height="11129" alt="project_architecture" src="Workflow/project_architecture.png" />
+- <img width="20005" height="11129" alt="project_architecture" src="https://github.com/SwapnaleeNikam/Atlikon_Data_Pipeline/blob/main/Workflow/project_architecture.png" />
 ## Result & Conclusion
 - Successfully ingested raw OLTP data from Sports Bar into Amazon S3, establishing a scalable and durable cloud-based data lake.
 - Implemented a Medallion Architecture (Bronze, Silver, Gold) in Databricks, ensuring structured data processing and clear separation of concerns.
